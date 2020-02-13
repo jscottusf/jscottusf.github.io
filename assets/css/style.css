@@ -120,3 +120,19 @@ body {
     background-color: #f5f5f5;
     text-align: center;
 }
+
+/*Social Media Footer*/
+.social-media-bar {
+    padding: 30px 0px;
+}
+
+.social-media-bar a {
+    color: #555;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.social-media-bar a:hover {
+    color: #000;
+    background-color: transparent;
+}
