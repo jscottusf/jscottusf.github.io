@@ -1,0 +1,121 @@
+html {
+    position: relative;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+/* Portfolio styles */
+
+.portfolio-items-wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: "Open-Sans", sans-serif;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-img-background {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(75%) saturate(140%);
+}
+
+.image-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo-wrapper h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin: 10px 0 0 0;
+}
+
+.image-text-wrapper .subtitle {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+    border-color: transparent;
+}
+
+.image-text-wrapper:hover .subtitle {
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.image-text-wrapper button {
+    transition: 1s;
+    color: transparent;
+    border-color: transparent;
+}
+
+.image-text-wrapper:hover button {
+    color: lightseagreen;
+    border-color: lightseagreen; 
+}
+
+.image-text-wrapper button:hover {
+    color: white;
+    border-color: lightseagreen; 
+    background-color: lightseagreen;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+/* about page styles */
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+    color: lightseagreen;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+    text-align: center;
+}
