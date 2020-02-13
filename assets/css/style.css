@@ -144,3 +144,29 @@ body {
     background-color: #f5f5f5;
     text-align: center;
 }
+
+@media screen and (max-width: 1150px) {
+    .portfolio-items-wrapper {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(1, 1, 31);
+    }
+}
+  
+/* max width 768px */
+@media screen and (max-width: 774px) {
+    .portfolio-items-wrapper {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(1, 1, 31);
+    }
+}
+
+/* Max width 640px */
+@media screen and (max-width: 640px) {
+    
+}
