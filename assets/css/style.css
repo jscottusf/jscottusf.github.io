@@ -193,6 +193,17 @@ body {
 }
 
 /* Max width 640px */
-@media screen and (max-width: 640px) {
-    
+@media screen and (max-width: 450px) {
+    #name {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 396px) {
+    .logo-wrapper h1 {
+        font-weight: 700;
+        color: #f5f5f5;
+        font-size: 38px;
+        margin: 10px 0 0 0;
+    }
 }
