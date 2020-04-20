@@ -113,10 +113,10 @@
             </div>
 
             <div class="subtitle">
-              Full stack web application which scrapes NPR news front page for
-              main stories, stores data in MongoDB database using Mongoose, and
-              renders data utilizing express-handlebars. User can save favorite
-              stories and make notes on each.
+              Full stack web application which scrapes NPR News, stores data in
+              MongoDB database using Mongoose, and renders data utilizing
+              express-handlebars. User can save favorite stories and make notes
+              on each.
               <br />
               <a
                 href="https://github.com/jscottusf/npr-scraper"
@@ -504,15 +504,15 @@
     </footer>
   </body>
   <script>
-    const portfolioItems = document.querySelectorAll(".portfolio-item-wrapper");
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
 
-    portfolioItems.forEach((portfolioItem) => {
-      portfolioItem.addEventListener("mouseover", () => {
-        portfolioItem.childNodes[1].classList.add("img-darken");
+    portfolioItems.forEach(portfolioItem => {
+      portfolioItem.addEventListener('mouseover', () => {
+        portfolioItem.childNodes[1].classList.add('img-darken');
       });
 
-      portfolioItem.addEventListener("mouseout", () => {
-        portfolioItem.childNodes[1].classList.remove("img-darken");
+      portfolioItem.addEventListener('mouseout', () => {
+        portfolioItem.childNodes[1].classList.remove('img-darken');
       });
     });
   </script>
